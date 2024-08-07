@@ -1,6 +1,6 @@
-# Educational Counsellor Chatbot
+# PATHWAY GENERATION
 
-This repository contains the implementation of an Educational Counsellor Chatbot designed to interact with students, collect their responses, and securely process and analyze the data using differential privacy techniques.
+This repository contains the implementation of an PATHWAY GENERATION designed to interact with students, collect their responses, and securely process and analyze the data using differential privacy techniques.
 
 ## Architecture
 
@@ -23,6 +23,7 @@ The Educational Counsellor Chatbot follows the below process flow:
 - **Chatbot**: Collects inputs from users and interacts with them.
 - **Backend (Flask)**: Handles API requests, processes data using `dp-opt`, and constructs secure prompts.
 - **Ollama**: Sends the constructed prompt to the selected language model and receives the response.
+- **MODELS**: We Can use LLAMA2, LLAMA3, MISTRAL , Any models which are avialable in OLLAMA
 - **Language Model (LLM)**: Processes the prompt and generates a response.
 - **FastAPI**: Facilitates communication between the backend and the frontend.
 - **Frontend**: Displays the output from the language model to the user.
