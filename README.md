@@ -42,8 +42,8 @@ To set up the project, follow these steps:
 
 3. Run the application:
    ```bash
-   python app.py
-
+   uvicorn main:app --reload
+   
 
 ## Usage
 
