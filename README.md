@@ -35,3 +35,32 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/yourusername/educational-counsellor-chatbot.git
    cd educational-counsellor-chatbot
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the application:
+   ```bash
+   python app.py
+
+
+## Usage
+
+The Educational Counsellor Chatbot can be used as follows:
+
+1. **Start the Chatbot**: Begin by starting the chatbot and interacting with it through the frontend interface.
+2. **Questionnaire**: The chatbot will ask a series of questions and collect your responses.
+3. **Backend Processing**: The backend will process the data, construct a secure prompt, and send it to the Ollama service.
+4. **Model Response**: The selected language model will generate a response based on the prompt.
+5. **Display Response**: The response will be sent back to the frontend and displayed to the user.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
