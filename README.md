@@ -4,7 +4,7 @@ This repository contains the implementation of an Educational Counsellor Chatbot
 
 ## Architecture
 
-![Architecture Diagram](https://github.com/sivasai3949/OLLAMA-NEW/blob/main/static/naavi_llm_architecture.jpg)
+![Architecture Diagram](https://github.com/sivasai3949/OLLAMA-NEW/blob/main2/static/naavi_llm_architecture.png)
 
 ## Overview
 
